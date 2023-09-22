@@ -13,8 +13,10 @@ export default function Home() {
     setOpen(false)
   }
   return (
-  <div className='px-4'>
-    <header className="container  z-0 mx-auto bg-WHITE w-80 h-16 mt-3 rounded-md flex justify-between px-4 items-center ">
+
+  <div>
+      <header className="container px-4 bg-hero-sp  bg-cover bg-no-repeat pt-3 h-screen ">
+        <div className='z-0 mx-auto bg-WHITE w-full max-w-sm h-16  rounded-md flex justify-between px-4 items-center '>
           <Image
             src="/Vector.png"
             width={40}
@@ -72,11 +74,28 @@ export default function Home() {
           <span className={isOpen ? "content w-8 h-0.5 bg-gray-600  rotate-130 duration-500" : 'btn-close'}></span>
           <span className={isOpen ? "content translate-y-2 duration-300": 'btn-close !w-4 !ms-auto'}></span>
           </button>
-    </header>
-    <main className="container mx-auto mt-12">
-        <section id="hero" >
-          
-        </section>
+      </div>
+      <div className='mt-20 container mx-auto w-full pl-4 max-w-sm '>
+          <div className="">
+            <div className='space-y-6 '>
+              <h1 className='text-2xl font-bold text-BLACK'>
+                テクノロジーを通じて、<br />
+                夢や目標を実現できる<br />
+                環境を提供します
+              </h1>
+              <p className='text-BLACK'>
+                IT教育、システム開発から<br />
+                企業を支援する<br />
+                テクノロジーカンパニーです。
+              </p>
+            </div>
+            <button className='mt-16 primary-btn text-sm py-4 px-8 w-60 font-bold'>
+              事業内容を見る
+              </button>
+          </div>
+        </div>
+        </header>
+ <main className="container mx-auto mt-12  ">
       <section id="service"></section>
       <section id="news"></section>
       <section id="cta"></section>
