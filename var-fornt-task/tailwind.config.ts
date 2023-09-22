@@ -11,7 +11,11 @@ const config: Config = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        "hero-sp": "url('/hero-sp.png')",
+        "hero": "url('/hero.jpg')",
+        "cta-sp": "url('/cta-sp.png')",
+        "cta":"url('/cta.jpg')",
       },
       colors: {
         "primary": " #CBF34D",
