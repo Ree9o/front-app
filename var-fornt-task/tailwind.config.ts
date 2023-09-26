@@ -17,6 +17,9 @@ const config: Config = {
         "cta-sp": "url('/cta-sp.png')",
         "cta":"url('/cta.jpg')",
       },
+      lineHeight: {
+        '72': '4.5rem',
+      },
       colors: {
         "primary": " #CBF34D",
         "badge-blue": "#4D5EF3",
