@@ -1,6 +1,6 @@
 # Ticket
 
-- [URL]
+https://www.figma.com/file/LPed6ZCCJjY7SgyhTk3mWi/%E3%80%90%E5%A4%96%E9%83%A8%E5%85%AC%E9%96%8B%E7%94%A8%E3%80%91%E5%AE%9F%E8%A3%85%E3%82%AB%E3%83%B3%E3%83%97?type=design&node-id=0%3A1&mode=design&t=mx8hIQ7V4jZ7nlIj-1
 
 # やった事
 
