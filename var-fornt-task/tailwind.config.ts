@@ -17,7 +17,14 @@ const config: Config = {
         "cta-sp": "url('/cta-sp.png')",
         "cta":"url('/cta.jpg')",
       },
+      fontSize: {
+        'xxl': ["2.5rem", {
+          lineHeight: '3.75rem',
+          fontWeight: "700",
+        }]
+      },
       lineHeight: {
+        '60':'3.75rem',
         '72': '4.5rem',
       },
       colors: {
@@ -28,6 +35,7 @@ const config: Config = {
         "badge-orange": "#F3894D",
         "badge-purple": "#BE4DF3",
         "Gray/900": "#333333",
+        "Gray/#666":"#666666",
         "Gray/700": "#999999",
         "Gray/600": "#CCCCCC",
         "Gray/100": "#EEEEEE",
