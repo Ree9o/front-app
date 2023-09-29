@@ -18,6 +18,9 @@ const config: Config = {
         "cta":"url('/cta.jpg')",
       },
       fontSize: {
+        'xm': ["0.875rem", {
+          lineHeight:'1.3125rem',
+        }],
         'xxl': ["2.5rem", {
           lineHeight: '3.75rem',
           fontWeight: "700",
