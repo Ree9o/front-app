@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+const plugin = require('tailwindcss/plugin');
 
 const config: Config = {
   content: [
@@ -18,6 +19,9 @@ const config: Config = {
         "cta":"url('/cta.jpg')",
       },
       fontSize: {
+        'xm': ["0.875rem", {
+          lineHeight:'1.3125rem',
+        }],
         'xxl': ["2.5rem", {
           lineHeight: '3.75rem',
           fontWeight: "700",
@@ -47,6 +51,12 @@ const config: Config = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    // where句の導入
+    plugin(({ addVariant }) => {
+      addVariant('where', ':where(&)');
+    }),
+  ],
 }
+
 export default config
