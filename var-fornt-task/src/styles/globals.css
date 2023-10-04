@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 :root {
-  @apply bg-BLACK text-WHITE
+  @apply bg-BLACK text-WHITE scroll-smooth
 }
 .btn-close{
   @apply block w-8 h-0.5 rounded-sm bg-BLACK duration-500
 }
 .primary-btn{
-  @apply bg-primary font-bold text-BLACK  rounded-full w-60 text-center h-14
+  @apply bg-primary font-bold text-BLACK  rounded-full w-60 text-center h-14 
 }
 .secondary-btn{
   @apply  bg-WHITE font-bold text-BLACK  rounded-full w-60 text-center h-14
