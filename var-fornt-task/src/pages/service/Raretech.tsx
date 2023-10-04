@@ -1,7 +1,3 @@
-
 export default function Raretech() {
-  return (
-    <div>raretech</div>
-  )
+  return <div>raretech</div>;
 }
-

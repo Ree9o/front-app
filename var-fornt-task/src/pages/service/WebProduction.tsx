@@ -1,7 +1,3 @@
-
 export default function WebProduction() {
-  return (
-    <div>web production</div>
-  )
+  return <div>web production</div>;
 }
-

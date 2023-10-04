@@ -1,7 +1,3 @@
-
 export default function Envader() {
-  return (
-    <div>envader</div>
-  )
+  return <div>envader</div>;
 }
-

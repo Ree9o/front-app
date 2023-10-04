@@ -1,8 +1,3 @@
-
 export default function Document() {
-  return (
-    <div>document</div>
-
-  )
+  return <div>document</div>;
 }
-
